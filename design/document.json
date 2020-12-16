@@ -287,10 +287,7 @@
                       }
                     ],
                     "clip" : false,
-                    "codeOverrideEnabled" : true,
-                    "codeOverrideFile" : ".\/App.tsx",
-                    "codeOverrideIdentifier" : ".\/App.tsx_Clear",
-                    "codeOverrideName" : "Clear",
+                    "codeOverrideEnabled" : false,
                     "constraintsLocked" : false,
                     "duplicatedFrom" : null,
                     "exportOptions" : [
@@ -1427,10 +1424,7 @@
                 "clip" : false,
                 "codeComponentIdentifier" : "framer\/Page",
                 "codeComponentPackageVersion" : null,
-                "codeOverrideEnabled" : true,
-                "codeOverrideFile" : ".\/App.tsx",
-                "codeOverrideIdentifier" : ".\/App.tsx_Streamable",
-                "codeOverrideName" : "Streamable",
+                "codeOverrideEnabled" : false,
                 "constraintsLocked" : true,
                 "duplicatedFrom" : null,
                 "exportOptions" : [
@@ -2055,10 +2049,7 @@
               }
             ],
             "clip" : true,
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.tsx",
-            "codeOverrideIdentifier" : ".\/App.tsx_ListItem",
-            "codeOverrideName" : "ListItem",
+            "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "duplicatedFrom" : [
               "VwKIinJYk"
@@ -2446,10 +2437,7 @@
               }
             ],
             "clip" : true,
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.tsx",
-            "codeOverrideIdentifier" : ".\/App.tsx_LiveMessage",
-            "codeOverrideName" : "LiveMessage",
+            "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "duplicatedFrom" : [
               "VwKIinJYk",
