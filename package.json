@@ -1,0 +1,22 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "b5fbf26d-ccdd-4743-8d15-ce5d9ac86937",
+		"displayName": "YouTube Live Chat Overlay"
+	},
+	"author": "Athanasia Lykoudi",
+	"dependencies": {
+		"@framer/framer.default": "^1.90.0",
+		"axios": "^0.21.0"
+	},
+	"name": "@framer/sla.youtube-live-comments",
+	"version": "1.2.0"
+}
