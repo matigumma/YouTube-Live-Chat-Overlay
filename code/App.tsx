@@ -7,13 +7,12 @@ const livedata = Data({
     author: "",
     avatar: "",
     opacity: 1,
+    y: 330,
     transition: {
         type: "tween",
         duration: 0.6,
         ease: [0.12, 0.23, 0.24, 1.23],
     },
-    y: 330,
-    background: "#000",
 })
 
 export function ListItem(props): Override {
@@ -37,14 +36,13 @@ export function ListItem(props): Override {
         async onTap() {
             await controls.start({
                 y: 330,
-                opacity: 0,
             })
+            livedata.y = 0
             livedata.message = props.chatMessage
             livedata.author = props.authorName
             livedata.avatar = props.avatar
             controls.start({
                 y: 0,
-                opacity: 1,
             })
         },
     }
@@ -56,8 +54,7 @@ export function Clear(): Override {
             scale: 1.05,
         },
         onTap() {
-            livedata.opacity = 0
-            console.log("tap")
+            livedata.y = 330
         },
     }
 }
@@ -75,9 +72,11 @@ export function LiveMessage(): Override {
 
 export function Streamable(): Override {
     return {
-        animate: { opacity: livedata.opacity },
+        animate: { y: livedata.y },
         transition: {
-            delay: 0.5,
+            type: "tween",
+            duration: 0.6,
+            ease: [0.12, 0.23, 0.24, 1.23],
         },
     }
 }
